@@ -138,7 +138,7 @@ if (isset($_SESSION['info'])) {
 }
 
 echo '<div id="loginpage">';
-echo "<p id='logo'><img src='{$_SESSION['config']['businessappurl']}static.php?filename=logo.svg' alt='Maarch'/></p>";
+//echo "<p id='logo'><img src='{$_SESSION['config']['businessappurl']}static.php?filename=' /></p>";
 
 echo '<div align="center">';
 echo '<h3>';

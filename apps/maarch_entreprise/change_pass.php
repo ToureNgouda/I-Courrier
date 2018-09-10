@@ -28,7 +28,8 @@ $_SESSION['error'] = '';
 
 $html .= '<div id="inner_content" class="clearfix">';
 $html .= '<h2 class="tit">';
-$html .= "<img src='{$_SESSION['config']['businessappurl']}static.php?filename=logo.svg' style='height:130px;'>";
+$html .= "<img style='width:300px;height:200px;' src='{$_SESSION['config']['businessappurl']}static.php?filename=logoInnov.png'>
+<p style='margin-left:150px;color:#DF7401;font-size:40px;'> I-Courrier </p>";
 $html .= '<br/><br/>';
 
 if ($_SESSION['user']['cookie_date']) {
