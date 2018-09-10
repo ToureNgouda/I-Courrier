@@ -1561,20 +1561,24 @@ vertical-align: middle;
 
 }
 #loginpage h3{
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: #DF7401;
+    padding-top: -30px;
 }
 
 #formlogin {
     width: 255px;
+    padding-top: -200px;
 }
 
 #formlogin input {
-    width: 120px;
+    width: 130px;
+    height: 18px;
 }
 
 #formlogin input.button {
-    width: auto;
+    width: 130px;
+    height: 28px;
     margin: 0;
 }
 
