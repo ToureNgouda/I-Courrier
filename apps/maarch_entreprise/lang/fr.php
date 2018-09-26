@@ -21,7 +21,7 @@
 
 
 
-if (!defined("_MEP_VERSION")) define("_MEP_VERSION", "Maarch v17.06");
+if (!defined("_MEP_VERSION")) define("_MEP_VERSION", "I-Courrier v1.0");
 
 //if (!defined("_ID_TO_DISPAY")) define("_ID_TO_DISPAY", "res_id"); // value res_id || chrono_number
 if (!defined("_ID_TO_DISPLAY")) define("_ID_TO_DISPLAY", "chrono_number"); // value res_id || chrono_number
@@ -724,7 +724,7 @@ if (!defined("_NO_STRUCTURE_ATTACHED")) define("_NO_STRUCTURE_ATTACHED", "Ce typ
 
 ///// Credits
 if (!defined("_MAARCH_CREDITS")) define("_MAARCH_CREDITS", "A propos de I-Courrier ");
-if (!defined("_MAARCH_LICENCE")) define("_MAARCH_LICENCE", "Maarch est diffusé sous les termes de la");
+if (!defined("__LICENCE")) define("_MAARCH_LICENCE", "Maarch est diffusé sous les termes de la");
 if (!defined("_OFFICIAL_WEBSITE")) define("_OFFICIAL_WEBSITE", "Site officiel");
 if (!defined("_COMMUNITY")) define("_COMMUNITY", "Communauté");
 if (!defined("_DOCUMENTATION")) define("_DOCUMENTATION", "Documentation");
@@ -1532,7 +1532,7 @@ if (!defined("_EXPORT_LIST"))    define("_EXPORT_LIST", "Exporter");
 /******************** Action put in copy ************/
 if (!defined("_ADD_LINKS"))    define("_ADD_LINKS", "Ajouter des liaisons");
 if (!defined("_PUT_IN_COPY"))    define("_PUT_IN_COPY", "Ajouter en copie");
-if (!defined("_POWERED_BY"))    define("_POWERED_BY", "Powered by Maarch&trade;.");
+if (!defined("_POWERED_BY"))    define("_POWERED_BY", "Powered by I-Courrier&trade;.");
 if (!defined("_LINK_TO_DOC"))    define("_LINK_TO_DOC", "Lier à un document");
 if (!defined("_LINK_REFERENCE"))    define("_LINK_REFERENCE", "Pour lier vous devez choisir un document existant");
 if (!defined("_LINKED_TO"))    define("_LINKED_TO", "Lié au document ");

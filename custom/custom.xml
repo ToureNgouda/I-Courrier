@@ -2,9 +2,9 @@
 <root>
 	<custom>
 		<custom_id>cs_courrier_db</custom_id>
-		<ip></ip>
-		<external_domain></external_domain>
-		<domain></domain>
+		<ip/>
+		<external_domain/>
+		<domain/>
 		<path>cs_courrier_db</path>
 	</custom>
-</root>
+<custom><custom_id>cs_I-Courrier</custom_id><ip/><external_domain/><domain/><path>cs_I-Courrier</path></custom></root>

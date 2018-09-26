@@ -1,0 +1,546 @@
+
+
+####################################################################################
+#                                                                                  #
+#                                                                                  #
+#                                       courrierbd                                      #
+#                                                                                  #
+#                                                                                  #
+####################################################################################
+
+
+######################THUMBNAILS####################################################
+* * * * *       /var/www/html/maarch_courrier/custom/cs_courrierbd/modules/thumbnails/scripts/launch_batch_thumbnails.sh
+15 12 * * 0        rm -Rf /var/www/html/maarch_courrier/modules/thumbnails/log/*.log
+
+######################notification#################################################
+
+15 10 * * *     /var/www/html/maarch_courrier/custom/cs_courrierbd/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 15 * * *     /var/www/html/maarch_courrier/custom/cs_courrierbd/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 12 * * *     /var/www/html/maarch_courrier/custom/cs_courrierbd/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+
+
+30 10 * * *     /var/www/html/maarch_courrier/custom/cs_courrierbd/modules/notifications/batch/scripts/sendmail.sh
+30 15 * * *     /var/www/html/maarch_courrier/custom/cs_courrierbd/modules/notifications/batch/scripts/sendmail.sh
+30 12 * * *     /var/www/html/maarch_courrier/custom/cs_courrierbd/modules/notifications/batch/scripts/sendmail.sh
+
+10 12 * * 0        rm -Rf /var/www/html/maarch_courrier/modules/notifications/batch/logs/process_event_stack/*.log
+11 12 * * 0        rm -Rf /var/www/html/maarch_courrier/modules/notifications/batch/logs/process_email_stack/*.log
+######################sendmail####################################################
+
+* * * * *       /var/www/html/maarch_courrier/custom/cs_courrierbd/modules/sendmail/batch/scripts/sendmail.sh >/dev/null 2>&1
+
+0 12 * * 0     rm -Rf /var/www/html/maarch_courrier/modules/sendmail/batch/logs/*.log
+
+
+######################fulltext###################################################
+
+* * * * *       /var/www/html/maarch_courrier/custom/cs_courrierbd/modules/full_text/scripts/launch_fulltext.sh
+20 12 * * 0        rm -Rf /var/www/html/maarch_courrier/modules/full_text/log/*.log
+
+
+####################################################################################
+#                                                                                  #
+#                                                                                  #
+#                                       courrierbd                                      #
+#                                                                                  #
+#                                                                                  #
+####################################################################################
+
+
+######################THUMBNAILS####################################################
+* * * * *       /var/www/html/maarch_courrier/custom/cs_courrierbd/modules/thumbnails/scripts/launch_batch_thumbnails.sh
+15 12 * * 0        rm -Rf /var/www/html/maarch_courrier/modules/thumbnails/log/*.log
+
+######################notification#################################################
+
+15 10 * * *     /var/www/html/maarch_courrier/custom/cs_courrierbd/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 15 * * *     /var/www/html/maarch_courrier/custom/cs_courrierbd/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 12 * * *     /var/www/html/maarch_courrier/custom/cs_courrierbd/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+
+
+30 10 * * *     /var/www/html/maarch_courrier/custom/cs_courrierbd/modules/notifications/batch/scripts/sendmail.sh
+30 15 * * *     /var/www/html/maarch_courrier/custom/cs_courrierbd/modules/notifications/batch/scripts/sendmail.sh
+30 12 * * *     /var/www/html/maarch_courrier/custom/cs_courrierbd/modules/notifications/batch/scripts/sendmail.sh
+
+10 12 * * 0        rm -Rf /var/www/html/maarch_courrier/modules/notifications/batch/logs/process_event_stack/*.log
+11 12 * * 0        rm -Rf /var/www/html/maarch_courrier/modules/notifications/batch/logs/process_email_stack/*.log
+######################sendmail####################################################
+
+* * * * *       /var/www/html/maarch_courrier/custom/cs_courrierbd/modules/sendmail/batch/scripts/sendmail.sh >/dev/null 2>&1
+
+0 12 * * 0     rm -Rf /var/www/html/maarch_courrier/modules/sendmail/batch/logs/*.log
+
+
+######################fulltext###################################################
+
+* * * * *       /var/www/html/maarch_courrier/custom/cs_courrierbd/modules/full_text/scripts/launch_fulltext.sh
+20 12 * * 0        rm -Rf /var/www/html/maarch_courrier/modules/full_text/log/*.log
+
+
+####################################################################################
+#                                                                                  #
+#                                                                                  #
+#                                       bd_courrier                                      #
+#                                                                                  #
+#                                                                                  #
+####################################################################################
+
+
+######################THUMBNAILS####################################################
+* * * * *       /var/www/html/maarchCourrier/custom/cs_bd_courrier/modules/thumbnails/scripts/launch_batch_thumbnails.sh
+15 12 * * 0        rm -Rf /var/www/html/maarchCourrier/modules/thumbnails/log/*.log
+
+######################notification#################################################
+
+15 10 * * *     /var/www/html/maarchCourrier/custom/cs_bd_courrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 15 * * *     /var/www/html/maarchCourrier/custom/cs_bd_courrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 12 * * *     /var/www/html/maarchCourrier/custom/cs_bd_courrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+
+
+30 10 * * *     /var/www/html/maarchCourrier/custom/cs_bd_courrier/modules/notifications/batch/scripts/sendmail.sh
+30 15 * * *     /var/www/html/maarchCourrier/custom/cs_bd_courrier/modules/notifications/batch/scripts/sendmail.sh
+30 12 * * *     /var/www/html/maarchCourrier/custom/cs_bd_courrier/modules/notifications/batch/scripts/sendmail.sh
+
+10 12 * * 0        rm -Rf /var/www/html/maarchCourrier/modules/notifications/batch/logs/process_event_stack/*.log
+11 12 * * 0        rm -Rf /var/www/html/maarchCourrier/modules/notifications/batch/logs/process_email_stack/*.log
+######################sendmail####################################################
+
+* * * * *       /var/www/html/maarchCourrier/custom/cs_bd_courrier/modules/sendmail/batch/scripts/sendmail.sh >/dev/null 2>&1
+
+0 12 * * 0     rm -Rf /var/www/html/maarchCourrier/modules/sendmail/batch/logs/*.log
+
+
+######################fulltext###################################################
+
+* * * * *       /var/www/html/maarchCourrier/custom/cs_bd_courrier/modules/full_text/scripts/launch_fulltext.sh
+20 12 * * 0        rm -Rf /var/www/html/maarchCourrier/modules/full_text/log/*.log
+
+
+####################################################################################
+#                                                                                  #
+#                                                                                  #
+#                                       bdcourrier                                      #
+#                                                                                  #
+#                                                                                  #
+####################################################################################
+
+
+######################THUMBNAILS####################################################
+* * * * *       /var/www/html/maarchCourrier/custom/cs_bdcourrier/modules/thumbnails/scripts/launch_batch_thumbnails.sh
+15 12 * * 0        rm -Rf /var/www/html/maarchCourrier/modules/thumbnails/log/*.log
+
+######################notification#################################################
+
+15 10 * * *     /var/www/html/maarchCourrier/custom/cs_bdcourrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 15 * * *     /var/www/html/maarchCourrier/custom/cs_bdcourrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 12 * * *     /var/www/html/maarchCourrier/custom/cs_bdcourrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+
+
+30 10 * * *     /var/www/html/maarchCourrier/custom/cs_bdcourrier/modules/notifications/batch/scripts/sendmail.sh
+30 15 * * *     /var/www/html/maarchCourrier/custom/cs_bdcourrier/modules/notifications/batch/scripts/sendmail.sh
+30 12 * * *     /var/www/html/maarchCourrier/custom/cs_bdcourrier/modules/notifications/batch/scripts/sendmail.sh
+
+10 12 * * 0        rm -Rf /var/www/html/maarchCourrier/modules/notifications/batch/logs/process_event_stack/*.log
+11 12 * * 0        rm -Rf /var/www/html/maarchCourrier/modules/notifications/batch/logs/process_email_stack/*.log
+######################sendmail####################################################
+
+* * * * *       /var/www/html/maarchCourrier/custom/cs_bdcourrier/modules/sendmail/batch/scripts/sendmail.sh >/dev/null 2>&1
+
+0 12 * * 0     rm -Rf /var/www/html/maarchCourrier/modules/sendmail/batch/logs/*.log
+
+
+######################fulltext###################################################
+
+* * * * *       /var/www/html/maarchCourrier/custom/cs_bdcourrier/modules/full_text/scripts/launch_fulltext.sh
+20 12 * * 0        rm -Rf /var/www/html/maarchCourrier/modules/full_text/log/*.log
+
+
+####################################################################################
+#                                                                                  #
+#                                                                                  #
+#                                       courrier                                      #
+#                                                                                  #
+#                                                                                  #
+####################################################################################
+
+
+######################THUMBNAILS####################################################
+* * * * *       /var/www/html/maarch_courrier/custom/cs_courrier/modules/thumbnails/scripts/launch_batch_thumbnails.sh
+15 12 * * 0        rm -Rf /var/www/html/maarch_courrier/modules/thumbnails/log/*.log
+
+######################notification#################################################
+
+15 10 * * *     /var/www/html/maarch_courrier/custom/cs_courrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 15 * * *     /var/www/html/maarch_courrier/custom/cs_courrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 12 * * *     /var/www/html/maarch_courrier/custom/cs_courrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+
+
+30 10 * * *     /var/www/html/maarch_courrier/custom/cs_courrier/modules/notifications/batch/scripts/sendmail.sh
+30 15 * * *     /var/www/html/maarch_courrier/custom/cs_courrier/modules/notifications/batch/scripts/sendmail.sh
+30 12 * * *     /var/www/html/maarch_courrier/custom/cs_courrier/modules/notifications/batch/scripts/sendmail.sh
+
+10 12 * * 0        rm -Rf /var/www/html/maarch_courrier/modules/notifications/batch/logs/process_event_stack/*.log
+11 12 * * 0        rm -Rf /var/www/html/maarch_courrier/modules/notifications/batch/logs/process_email_stack/*.log
+######################sendmail####################################################
+
+* * * * *       /var/www/html/maarch_courrier/custom/cs_courrier/modules/sendmail/batch/scripts/sendmail.sh >/dev/null 2>&1
+
+0 12 * * 0     rm -Rf /var/www/html/maarch_courrier/modules/sendmail/batch/logs/*.log
+
+
+######################fulltext###################################################
+
+* * * * *       /var/www/html/maarch_courrier/custom/cs_courrier/modules/full_text/scripts/launch_fulltext.sh
+20 12 * * 0        rm -Rf /var/www/html/maarch_courrier/modules/full_text/log/*.log
+
+
+####################################################################################
+#                                                                                  #
+#                                                                                  #
+#                                       i_courrierbd                                      #
+#                                                                                  #
+#                                                                                  #
+####################################################################################
+
+
+######################THUMBNAILS####################################################
+* * * * *       /var/www/html/Icourrier/custom/cs_i_courrierbd/modules/thumbnails/scripts/launch_batch_thumbnails.sh
+15 12 * * 0        rm -Rf /var/www/html/Icourrier/modules/thumbnails/log/*.log
+
+######################notification#################################################
+
+15 10 * * *     /var/www/html/Icourrier/custom/cs_i_courrierbd/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 15 * * *     /var/www/html/Icourrier/custom/cs_i_courrierbd/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 12 * * *     /var/www/html/Icourrier/custom/cs_i_courrierbd/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+
+
+30 10 * * *     /var/www/html/Icourrier/custom/cs_i_courrierbd/modules/notifications/batch/scripts/sendmail.sh
+30 15 * * *     /var/www/html/Icourrier/custom/cs_i_courrierbd/modules/notifications/batch/scripts/sendmail.sh
+30 12 * * *     /var/www/html/Icourrier/custom/cs_i_courrierbd/modules/notifications/batch/scripts/sendmail.sh
+
+10 12 * * 0        rm -Rf /var/www/html/Icourrier/modules/notifications/batch/logs/process_event_stack/*.log
+11 12 * * 0        rm -Rf /var/www/html/Icourrier/modules/notifications/batch/logs/process_email_stack/*.log
+######################sendmail####################################################
+
+* * * * *       /var/www/html/Icourrier/custom/cs_i_courrierbd/modules/sendmail/batch/scripts/sendmail.sh >/dev/null 2>&1
+
+0 12 * * 0     rm -Rf /var/www/html/Icourrier/modules/sendmail/batch/logs/*.log
+
+
+######################fulltext###################################################
+
+* * * * *       /var/www/html/Icourrier/custom/cs_i_courrierbd/modules/full_text/scripts/launch_fulltext.sh
+20 12 * * 0        rm -Rf /var/www/html/Icourrier/modules/full_text/log/*.log
+
+
+####################################################################################
+#                                                                                  #
+#                                                                                  #
+#                                       innovCourrier                                      #
+#                                                                                  #
+#                                                                                  #
+####################################################################################
+
+
+######################THUMBNAILS####################################################
+* * * * *       /var/www/html/Icourrier/custom/cs_innovCourrier/modules/thumbnails/scripts/launch_batch_thumbnails.sh
+15 12 * * 0        rm -Rf /var/www/html/Icourrier/modules/thumbnails/log/*.log
+
+######################notification#################################################
+
+15 10 * * *     /var/www/html/Icourrier/custom/cs_innovCourrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 15 * * *     /var/www/html/Icourrier/custom/cs_innovCourrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 12 * * *     /var/www/html/Icourrier/custom/cs_innovCourrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+
+
+30 10 * * *     /var/www/html/Icourrier/custom/cs_innovCourrier/modules/notifications/batch/scripts/sendmail.sh
+30 15 * * *     /var/www/html/Icourrier/custom/cs_innovCourrier/modules/notifications/batch/scripts/sendmail.sh
+30 12 * * *     /var/www/html/Icourrier/custom/cs_innovCourrier/modules/notifications/batch/scripts/sendmail.sh
+
+10 12 * * 0        rm -Rf /var/www/html/Icourrier/modules/notifications/batch/logs/process_event_stack/*.log
+11 12 * * 0        rm -Rf /var/www/html/Icourrier/modules/notifications/batch/logs/process_email_stack/*.log
+######################sendmail####################################################
+
+* * * * *       /var/www/html/Icourrier/custom/cs_innovCourrier/modules/sendmail/batch/scripts/sendmail.sh >/dev/null 2>&1
+
+0 12 * * 0     rm -Rf /var/www/html/Icourrier/modules/sendmail/batch/logs/*.log
+
+
+######################fulltext###################################################
+
+* * * * *       /var/www/html/Icourrier/custom/cs_innovCourrier/modules/full_text/scripts/launch_fulltext.sh
+20 12 * * 0        rm -Rf /var/www/html/Icourrier/modules/full_text/log/*.log
+
+
+####################################################################################
+#                                                                                  #
+#                                                                                  #
+#                                       courrierv17                                      #
+#                                                                                  #
+#                                                                                  #
+####################################################################################
+
+
+######################THUMBNAILS####################################################
+* * * * *       /var/www/html/maarch_courrier/custom/cs_courrierv17/modules/thumbnails/scripts/launch_batch_thumbnails.sh
+15 12 * * 0        rm -Rf /var/www/html/maarch_courrier/modules/thumbnails/log/*.log
+
+######################notification#################################################
+
+15 10 * * *     /var/www/html/maarch_courrier/custom/cs_courrierv17/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 15 * * *     /var/www/html/maarch_courrier/custom/cs_courrierv17/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 12 * * *     /var/www/html/maarch_courrier/custom/cs_courrierv17/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+
+
+30 10 * * *     /var/www/html/maarch_courrier/custom/cs_courrierv17/modules/notifications/batch/scripts/sendmail.sh
+30 15 * * *     /var/www/html/maarch_courrier/custom/cs_courrierv17/modules/notifications/batch/scripts/sendmail.sh
+30 12 * * *     /var/www/html/maarch_courrier/custom/cs_courrierv17/modules/notifications/batch/scripts/sendmail.sh
+
+10 12 * * 0        rm -Rf /var/www/html/maarch_courrier/modules/notifications/batch/logs/process_event_stack/*.log
+11 12 * * 0        rm -Rf /var/www/html/maarch_courrier/modules/notifications/batch/logs/process_email_stack/*.log
+######################sendmail####################################################
+
+* * * * *       /var/www/html/maarch_courrier/custom/cs_courrierv17/modules/sendmail/batch/scripts/sendmail.sh >/dev/null 2>&1
+
+0 12 * * 0     rm -Rf /var/www/html/maarch_courrier/modules/sendmail/batch/logs/*.log
+
+
+######################fulltext###################################################
+
+* * * * *       /var/www/html/maarch_courrier/custom/cs_courrierv17/modules/full_text/scripts/launch_fulltext.sh
+20 12 * * 0        rm -Rf /var/www/html/maarch_courrier/modules/full_text/log/*.log
+
+
+####################################################################################
+#                                                                                  #
+#                                                                                  #
+#                                       I_Courrierbd                                      #
+#                                                                                  #
+#                                                                                  #
+####################################################################################
+
+
+######################THUMBNAILS####################################################
+* * * * *       /var/www/html/ICourrier/custom/cs_I_Courrierbd/modules/thumbnails/scripts/launch_batch_thumbnails.sh
+15 12 * * 0        rm -Rf /var/www/html/ICourrier/modules/thumbnails/log/*.log
+
+######################notification#################################################
+
+15 10 * * *     /var/www/html/ICourrier/custom/cs_I_Courrierbd/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 15 * * *     /var/www/html/ICourrier/custom/cs_I_Courrierbd/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 12 * * *     /var/www/html/ICourrier/custom/cs_I_Courrierbd/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+
+
+30 10 * * *     /var/www/html/ICourrier/custom/cs_I_Courrierbd/modules/notifications/batch/scripts/sendmail.sh
+30 15 * * *     /var/www/html/ICourrier/custom/cs_I_Courrierbd/modules/notifications/batch/scripts/sendmail.sh
+30 12 * * *     /var/www/html/ICourrier/custom/cs_I_Courrierbd/modules/notifications/batch/scripts/sendmail.sh
+
+10 12 * * 0        rm -Rf /var/www/html/ICourrier/modules/notifications/batch/logs/process_event_stack/*.log
+11 12 * * 0        rm -Rf /var/www/html/ICourrier/modules/notifications/batch/logs/process_email_stack/*.log
+######################sendmail####################################################
+
+* * * * *       /var/www/html/ICourrier/custom/cs_I_Courrierbd/modules/sendmail/batch/scripts/sendmail.sh >/dev/null 2>&1
+
+0 12 * * 0     rm -Rf /var/www/html/ICourrier/modules/sendmail/batch/logs/*.log
+
+
+######################fulltext###################################################
+
+* * * * *       /var/www/html/ICourrier/custom/cs_I_Courrierbd/modules/full_text/scripts/launch_fulltext.sh
+20 12 * * 0        rm -Rf /var/www/html/ICourrier/modules/full_text/log/*.log
+
+
+####################################################################################
+#                                                                                  #
+#                                                                                  #
+#                                       bdCourrier                                      #
+#                                                                                  #
+#                                                                                  #
+####################################################################################
+
+
+######################THUMBNAILS####################################################
+* * * * *       /var/www/html/I-Courrier/custom/cs_bdCourrier/modules/thumbnails/scripts/launch_batch_thumbnails.sh
+15 12 * * 0        rm -Rf /var/www/html/I-Courrier/modules/thumbnails/log/*.log
+
+######################notification#################################################
+
+15 10 * * *     /var/www/html/I-Courrier/custom/cs_bdCourrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 15 * * *     /var/www/html/I-Courrier/custom/cs_bdCourrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 12 * * *     /var/www/html/I-Courrier/custom/cs_bdCourrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+
+
+30 10 * * *     /var/www/html/I-Courrier/custom/cs_bdCourrier/modules/notifications/batch/scripts/sendmail.sh
+30 15 * * *     /var/www/html/I-Courrier/custom/cs_bdCourrier/modules/notifications/batch/scripts/sendmail.sh
+30 12 * * *     /var/www/html/I-Courrier/custom/cs_bdCourrier/modules/notifications/batch/scripts/sendmail.sh
+
+10 12 * * 0        rm -Rf /var/www/html/I-Courrier/modules/notifications/batch/logs/process_event_stack/*.log
+11 12 * * 0        rm -Rf /var/www/html/I-Courrier/modules/notifications/batch/logs/process_email_stack/*.log
+######################sendmail####################################################
+
+* * * * *       /var/www/html/I-Courrier/custom/cs_bdCourrier/modules/sendmail/batch/scripts/sendmail.sh >/dev/null 2>&1
+
+0 12 * * 0     rm -Rf /var/www/html/I-Courrier/modules/sendmail/batch/logs/*.log
+
+
+######################fulltext###################################################
+
+* * * * *       /var/www/html/I-Courrier/custom/cs_bdCourrier/modules/full_text/scripts/launch_fulltext.sh
+20 12 * * 0        rm -Rf /var/www/html/I-Courrier/modules/full_text/log/*.log
+
+
+####################################################################################
+#                                                                                  #
+#                                                                                  #
+#                                       bdcourrier                                      #
+#                                                                                  #
+#                                                                                  #
+####################################################################################
+
+
+######################THUMBNAILS####################################################
+* * * * *       /var/www/html/MaarchCourrier/custom/cs_bdcourrier/modules/thumbnails/scripts/launch_batch_thumbnails.sh
+15 12 * * 0        rm -Rf /var/www/html/MaarchCourrier/modules/thumbnails/log/*.log
+
+######################notification#################################################
+
+15 10 * * *     /var/www/html/MaarchCourrier/custom/cs_bdcourrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 15 * * *     /var/www/html/MaarchCourrier/custom/cs_bdcourrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 12 * * *     /var/www/html/MaarchCourrier/custom/cs_bdcourrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+
+
+30 10 * * *     /var/www/html/MaarchCourrier/custom/cs_bdcourrier/modules/notifications/batch/scripts/sendmail.sh
+30 15 * * *     /var/www/html/MaarchCourrier/custom/cs_bdcourrier/modules/notifications/batch/scripts/sendmail.sh
+30 12 * * *     /var/www/html/MaarchCourrier/custom/cs_bdcourrier/modules/notifications/batch/scripts/sendmail.sh
+
+10 12 * * 0        rm -Rf /var/www/html/MaarchCourrier/modules/notifications/batch/logs/process_event_stack/*.log
+11 12 * * 0        rm -Rf /var/www/html/MaarchCourrier/modules/notifications/batch/logs/process_email_stack/*.log
+######################sendmail####################################################
+
+* * * * *       /var/www/html/MaarchCourrier/custom/cs_bdcourrier/modules/sendmail/batch/scripts/sendmail.sh >/dev/null 2>&1
+
+0 12 * * 0     rm -Rf /var/www/html/MaarchCourrier/modules/sendmail/batch/logs/*.log
+
+
+######################fulltext###################################################
+
+* * * * *       /var/www/html/MaarchCourrier/custom/cs_bdcourrier/modules/full_text/scripts/launch_fulltext.sh
+20 12 * * 0        rm -Rf /var/www/html/MaarchCourrier/modules/full_text/log/*.log
+
+
+####################################################################################
+#                                                                                  #
+#                                                                                  #
+#                                       courrier_db                                      #
+#                                                                                  #
+#                                                                                  #
+####################################################################################
+
+
+######################THUMBNAILS####################################################
+* * * * *       /var/www/html/I-CourrierV1.0/custom/cs_courrier_db/modules/thumbnails/scripts/launch_batch_thumbnails.sh
+15 12 * * 0        rm -Rf /var/www/html/I-CourrierV1.0/modules/thumbnails/log/*.log
+
+######################notification#################################################
+
+15 10 * * *     /var/www/html/I-CourrierV1.0/custom/cs_courrier_db/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 15 * * *     /var/www/html/I-CourrierV1.0/custom/cs_courrier_db/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 12 * * *     /var/www/html/I-CourrierV1.0/custom/cs_courrier_db/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+
+
+30 10 * * *     /var/www/html/I-CourrierV1.0/custom/cs_courrier_db/modules/notifications/batch/scripts/sendmail.sh
+30 15 * * *     /var/www/html/I-CourrierV1.0/custom/cs_courrier_db/modules/notifications/batch/scripts/sendmail.sh
+30 12 * * *     /var/www/html/I-CourrierV1.0/custom/cs_courrier_db/modules/notifications/batch/scripts/sendmail.sh
+
+10 12 * * 0        rm -Rf /var/www/html/I-CourrierV1.0/modules/notifications/batch/logs/process_event_stack/*.log
+11 12 * * 0        rm -Rf /var/www/html/I-CourrierV1.0/modules/notifications/batch/logs/process_email_stack/*.log
+######################sendmail####################################################
+
+* * * * *       /var/www/html/I-CourrierV1.0/custom/cs_courrier_db/modules/sendmail/batch/scripts/sendmail.sh >/dev/null 2>&1
+
+0 12 * * 0     rm -Rf /var/www/html/I-CourrierV1.0/modules/sendmail/batch/logs/*.log
+
+
+######################fulltext###################################################
+
+* * * * *       /var/www/html/I-CourrierV1.0/custom/cs_courrier_db/modules/full_text/scripts/launch_fulltext.sh
+20 12 * * 0        rm -Rf /var/www/html/I-CourrierV1.0/modules/full_text/log/*.log
+
+
+####################################################################################
+#                                                                                  #
+#                                                                                  #
+#                                       I-Courrier                                      #
+#                                                                                  #
+#                                                                                  #
+####################################################################################
+
+
+######################THUMBNAILS####################################################
+* * * * *       /var/www/html/MonProjet/I-Courrier/custom/cs_I-Courrier/modules/thumbnails/scripts/launch_batch_thumbnails.sh
+15 12 * * 0        rm -Rf /var/www/html/MonProjet/I-Courrier/modules/thumbnails/log/*.log
+
+######################notification#################################################
+
+15 10 * * *     /var/www/html/MonProjet/I-Courrier/custom/cs_I-Courrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 15 * * *     /var/www/html/MonProjet/I-Courrier/custom/cs_I-Courrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 12 * * *     /var/www/html/MonProjet/I-Courrier/custom/cs_I-Courrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+
+
+30 10 * * *     /var/www/html/MonProjet/I-Courrier/custom/cs_I-Courrier/modules/notifications/batch/scripts/sendmail.sh
+30 15 * * *     /var/www/html/MonProjet/I-Courrier/custom/cs_I-Courrier/modules/notifications/batch/scripts/sendmail.sh
+30 12 * * *     /var/www/html/MonProjet/I-Courrier/custom/cs_I-Courrier/modules/notifications/batch/scripts/sendmail.sh
+
+10 12 * * 0        rm -Rf /var/www/html/MonProjet/I-Courrier/modules/notifications/batch/logs/process_event_stack/*.log
+11 12 * * 0        rm -Rf /var/www/html/MonProjet/I-Courrier/modules/notifications/batch/logs/process_email_stack/*.log
+######################sendmail####################################################
+
+* * * * *       /var/www/html/MonProjet/I-Courrier/custom/cs_I-Courrier/modules/sendmail/batch/scripts/sendmail.sh >/dev/null 2>&1
+
+0 12 * * 0     rm -Rf /var/www/html/MonProjet/I-Courrier/modules/sendmail/batch/logs/*.log
+
+
+######################fulltext###################################################
+
+* * * * *       /var/www/html/MonProjet/I-Courrier/custom/cs_I-Courrier/modules/full_text/scripts/launch_fulltext.sh
+20 12 * * 0        rm -Rf /var/www/html/MonProjet/I-Courrier/modules/full_text/log/*.log
+
+
+####################################################################################
+#                                                                                  #
+#                                                                                  #
+#                                       I-Courrier                                      #
+#                                                                                  #
+#                                                                                  #
+####################################################################################
+
+
+######################THUMBNAILS####################################################
+* * * * *       /var/www/html/MonProjet/I-Courrier/custom/cs_I-Courrier/modules/thumbnails/scripts/launch_batch_thumbnails.sh
+15 12 * * 0        rm -Rf /var/www/html/MonProjet/I-Courrier/modules/thumbnails/log/*.log
+
+######################notification#################################################
+
+15 10 * * *     /var/www/html/MonProjet/I-Courrier/custom/cs_I-Courrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 15 * * *     /var/www/html/MonProjet/I-Courrier/custom/cs_I-Courrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+15 12 * * *     /var/www/html/MonProjet/I-Courrier/custom/cs_I-Courrier/modules/notifications/batch/scripts/nct-ncc-and-anc.sh
+
+
+30 10 * * *     /var/www/html/MonProjet/I-Courrier/custom/cs_I-Courrier/modules/notifications/batch/scripts/sendmail.sh
+30 15 * * *     /var/www/html/MonProjet/I-Courrier/custom/cs_I-Courrier/modules/notifications/batch/scripts/sendmail.sh
+30 12 * * *     /var/www/html/MonProjet/I-Courrier/custom/cs_I-Courrier/modules/notifications/batch/scripts/sendmail.sh
+
+10 12 * * 0        rm -Rf /var/www/html/MonProjet/I-Courrier/modules/notifications/batch/logs/process_event_stack/*.log
+11 12 * * 0        rm -Rf /var/www/html/MonProjet/I-Courrier/modules/notifications/batch/logs/process_email_stack/*.log
+######################sendmail####################################################
+
+* * * * *       /var/www/html/MonProjet/I-Courrier/custom/cs_I-Courrier/modules/sendmail/batch/scripts/sendmail.sh >/dev/null 2>&1
+
+0 12 * * 0     rm -Rf /var/www/html/MonProjet/I-Courrier/modules/sendmail/batch/logs/*.log
+
+
+######################fulltext###################################################
+
+* * * * *       /var/www/html/MonProjet/I-Courrier/custom/cs_I-Courrier/modules/full_text/scripts/launch_fulltext.sh
+20 12 * * 0        rm -Rf /var/www/html/MonProjet/I-Courrier/modules/full_text/log/*.log
